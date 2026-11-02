@@ -74,11 +74,11 @@
 
 ### 2.1 Low-Level Process Execution Unit
 
-* \[ ] Create `TaskRunner` struct in `internal/runner/runner.go`.
-* \[ ] Implement `exec.CommandContext` wrapping to support explicit cancelation via context cancellation.
-* \[ ] Create thread-safe log buffer for task stdout/stderr stream ingestion.
-* \[ ] Handle process exit status codes and execution duration metrics logging.
-* \[ ] Write unit tests for running shell commands and capturing outputs asynchronously.
+* \[x] Create `TaskRunner` struct in `internal/runner/runner.go`.
+* \[x] Implement `exec.CommandContext` wrapping to support explicit cancelation via context cancellation.
+* \[x] Create thread-safe log buffer for task stdout/stderr stream ingestion.
+* \[x] Handle process exit status codes and execution duration metrics logging.
+* \[x] Write unit tests for running shell commands and capturing outputs asynchronously.
 
 ### 2.2 Asynchronous Log Streaming to TUI
 
