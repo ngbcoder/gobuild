@@ -47,12 +47,12 @@
 
 ### 1.2 Native Auto-Discovery Engine
 
-* \[ ] Implement detection logic for `go.mod` (Go projects).
-* \[ ] Implement detection logic for `Cargo.toml` (Rust projects).
-* \[ ] Implement detection logic for `package.json` (Node/TypeScript projects).
-* \[ ] Implement detection logic for `Makefile`.
-* \[ ] Create project scanner utility to traverse current working directory and find sub-projects.
-* \[ ] Unit test discovery logic against mock directory structures.
+* \[x] Implement detection logic for `go.mod` (Go projects).
+* \[x] Implement detection logic for `Cargo.toml` (Rust projects).
+* \[x] Implement detection logic for `package.json` (Node/TypeScript projects).
+* \[x] Implement detection logic for `Makefile`.
+* \[x] Create project scanner utility to traverse current working directory and find sub-projects.
+* \[x] Unit test discovery logic against mock directory structures.
 
 ### 1.3 Basic TUI Framework Setup (Charm Ecosystem)
 
