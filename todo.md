@@ -22,7 +22,7 @@
 
 ### 0.2 Initial Documentation \& Structural Setup
 
-* \[ ] Create project folder structure:
+* \[x] Create project folder structure:
 
   * `cmd/gobuild/` (Application entrypoint)
   * `internal/config/` (Configuration models \& parsers)
@@ -30,7 +30,7 @@
   * `internal/plugin/` (Plugin loading \& Git manager)
   * `internal/ui/` (Bubble Tea components, views, models)
   * `pkg/` (Shared utilities if any)
-* \[ ] Document project architecture and folder guidelines in `AGENTS.md`.
+* \[x] Document project architecture and folder guidelines in `AGENTS.md`.
 
 \---
 
