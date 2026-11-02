@@ -38,12 +38,12 @@
 
 ### 1.1 YAML Configuration Model (`gobuild.yaml`)
 
-* \[ ] Install `gopkg.in/yaml.v3` dependency (`go get gopkg.in/yaml.v3`).
-* \[ ] Define `ProjectConfig` and `GobuildConfig` Go structs in `internal/config/config.go`.
-* \[ ] Implement `LoadConfig(path string) (\*GobuildConfig, error)`.
-* \[ ] Handle missing configuration file gracefully with default fallbacks.
-* \[ ] Expand path tilde (`\~`) logic for cross-platform support (e.g., `\~/.gobuild/plugins`).
-* \[ ] Write unit tests for configuration parsing (`internal/config/config\_test.go`).
+* \[x] Install `gopkg.in/yaml.v3` dependency (`go get gopkg.in/yaml.v3`).
+* \[x] Define `ProjectConfig` and `GobuildConfig` Go structs in `internal/config/config.go`.
+* \[x] Implement `LoadConfig(path string) (\*GobuildConfig, error)`.
+* \[x] Handle missing configuration file gracefully with default fallbacks.
+* \[x] Expand path tilde (`\~`) logic for cross-platform support (e.g., `\~/.gobuild/plugins`).
+* \[x] Write unit tests for configuration parsing (`internal/config/config\_test.go`).
 
 ### 1.2 Native Auto-Discovery Engine
 
