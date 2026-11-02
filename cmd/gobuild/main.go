@@ -1,8 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+
+	tea "github.com/charmbracelet/bubbletea"
+	"github.com/Ngbcoder/gobuild/internal/ui"
+)
 
 func main() {
-	fmt.Println("Gobuild starting...")
-	fmt.Println("Project scaffolding initialized. Phase 0.1 complete.")
+	p := tea.NewProgram(ui.NewModel(), tea.WithAltScreen())
+	if _, err := p.Run(); err != nil {
+		fmt.Fprintf(os.Stderr, "gobuild: %v\n", err)
+		os.Exit(1)
+	}
 }

@@ -56,17 +56,17 @@
 
 ### 1.3 Basic TUI Framework Setup (Charm Ecosystem)
 
-* \[ ] Install Charm dependencies (`bubbletea`, `lipgloss`, `bubbles`).
-* \[ ] Define root application state model in `internal/ui/model.go`.
-* \[ ] Create basic `Init()`, `Update()`, and `View()` functions in `internal/ui/app.go`.
-* \[ ] Implement main window resize handler (`tea.WindowSizeMsg`).
-* \[ ] Setup initial layout structure using `lipgloss`:
+* \[x] Install Charm dependencies (`bubbletea`, `lipgloss`, `bubbles`).
+* \[x] Define root application state model in `internal/ui/model.go`.
+* \[x] Create basic `Init()`, `Update()`, and `View()` functions in `internal/ui/app.go`.
+* \[x] Implement main window resize handler (`tea.WindowSizeMsg`).
+* \[x] Setup initial layout structure using `lipgloss`:
 
-  * \[ ] Top header bar
-  * \[ ] Left sidebar pane (Projects \& Plugins)
-  * \[ ] Right main view pane (Log Output / Viewport)
-  * \[ ] Bottom status bar / help panel
-* \[ ] Verify core CLI entrypoint (`cmd/gobuild/main.go`) initializes the Bubble Tea program cleanly.
+  * \[x] Top header bar
+  * \[x] Left sidebar pane (Projects \& Plugins)
+  * \[x] Right main view pane (Log Output / Viewport)
+  * \[x] Bottom status bar / help panel
+* \[x] Verify core CLI entrypoint (`cmd/gobuild/main.go`) initializes the Bubble Tea program cleanly.
 
 \---
 
